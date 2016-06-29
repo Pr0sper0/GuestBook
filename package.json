@@ -4,16 +4,17 @@
   "license": "ValsCompany",
   "private": "true",
   "engines": {
-	"node": "5.5.0"
+    "node": "5.5.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "ejs": "^2.4.2",
-    "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "body-parser": "1.15.2",
+    "ejs": "2.4.2",
+    "express": "4.14.0",
+    "morgan": "1.7.0"
   }
 }
