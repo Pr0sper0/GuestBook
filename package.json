@@ -1,10 +1,15 @@
 {
   "name": "express-guestbook",
   "author": "Prospero",
+  "license": "ValsCompany",
   "private": "true",
-  "scripts": {
-    "start": "node app"
+  "engines": {
+	"node": "5.5.0"
   },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.4.2",
